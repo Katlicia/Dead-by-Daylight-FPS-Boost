@@ -1,7 +1,7 @@
 import customtkinter
 import os
 
-# Set up a UI. 
+# Set up a GUI. 
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("blue")
@@ -18,13 +18,13 @@ file_dir = r"{user_name}\AppData\Local\DeadByDaylight\Saved\Config\WindowsClient
 user = os.path.expanduser("~")
 expanded_file_dir = file_dir.format(user_name=user)
 
-# Continue with the UI.
+# Continue with the GUI.
 
 label = customtkinter.CTkLabel(master=frame, text="Dead by Daylight FPS Configuration")
 label.pack(pady=12, padx=10)
 
 
-# Defining our functions to change the ini files.
+# Defining our functions to change the INI files.
 
 print(expanded_file_dir)
 def engineFunc():    
@@ -38,7 +38,6 @@ def settingsFunc():
     settingsFile = f'{expanded_file_dir}\GameUserSettings.ini'
     key_to_update = "bUseVSync"
     new_value = "False"
-    # INI dosyasını okuyun
     with open(settingsFile, 'r+') as file:
         lines = file.readlines()
 
@@ -52,7 +51,7 @@ def settingsFunc():
         file.writelines(updated_lines)
 
 
-# More UI stuff.       
+# More GUI stuff.       
 button = customtkinter.CTkButton(master=frame, text = "Boost FPS", command=lambda: (engineFunc(), settingsFunc()))
 button.pack(pady=12, padx=10)
 
