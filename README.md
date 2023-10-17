@@ -5,7 +5,7 @@ How do I use this?
 - Open up the zip folder and execute the dbd_script.exe.
 
 Do I get banned from this?
-- No it just removes the fps limiter.
+- No, actually the game itself has added the settings in the new patch.
 
 How does it work?
-- It basically disables the Vsync and uncaps the fps limiter.
+- It disables the Vsync. (Vsync makes your game look better and sharper but it affects the performance.) By disabling it you get better performance. 
