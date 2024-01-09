@@ -1,3 +1,5 @@
+######## OUT-DATED NO NEED FOR USE SINCE THE GAME HAS THIS AS A FEATURE NOW. ########
+
 # Dead-by-Daylight-FPS-Boost
 Dead by Daylight FPS Boost
 
